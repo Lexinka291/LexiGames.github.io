@@ -185,7 +185,7 @@
             <button class="navbar-link" data-nav-link>Blog</button>
           </li> -->
            <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Legal</button>
+            <button class="navbar-link" id="legal" data-nav-link>Legal</button>
           </li> 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -1306,6 +1306,15 @@ If you have any questions or suggestions about my Privacy Policy, do not hesitat
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script> 
+    console.log(window.location.href);
+    if (window.location.href.includes("#legal"))
+    {
+      let e = document.getElementById("legal")
+      e.click()      
+      e.click()
+    }
+  </script>
 
 </body>
 
