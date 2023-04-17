@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Alexandra Šebestová" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alexandra Šebestová">Alexandra Šebestová</h1>
+
+          <p class="title">Game developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:alexandra291@gmail.com" class="contact-link">alexandra291@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+421918900246" class="contact-link">+421 918 900 246</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-01-29">January 29, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Košice, Slovakia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/alexandra-sebestova-02a933186/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://lexinka291.itch.io/"><img src="./assets/images/itch-io.png" alt="itch-io" width="20">              
+              <!-- <ion-icon name="logo-itchio"></ion-icon> -->
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/channel/UCYrs2_KAEBLncrDXHhDgV4g" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Legal</button>
+          </li> 
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Game Developer with a passion in programming and design. Most of the time you can find me behind the computer where I program,  design or play games.
+            Other times Im out for a walk, because I love nature and all the inspiration and thoughts I can get during the walk. 
+            I don't like when I’m bored, that’s why I’m always creating or crafting someting.
+            I like solving logical problems and trying to find the optimal solutions. I can be easily inspired by interesting and ambitious people.
+          </p>
+
+          <p>
+            My main job is programming the games, but sometimes I'm also responsible for art and design. 
+            With the good understaning of artistic and technical aspects of the project I can do custom-made design decitions pretty easily. 
+            I also strive for optimal solutions with regard to performance and so called "clean code" practices. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/blueprint.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Unity Game Development</h4>
+
+                <p class="service-item-text">
+                  Development of mobile games for IOS and Android. Development of PC games.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/programming.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programmer</h4>
+
+                <p class="service-item-text">
+                  Programming and testing games.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/paint-palette.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Art</h4>
+
+                <p class="service-item-text">
+                  Hobby painting, drawing, UX design.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  In my free time I also enjoy making and editing photos.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://butterflyeffect.sk/kurzy/games-lab/#pre-koho-je-kurz">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://hemisfera.sk/stan-sa-lektorom/">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://inlogic.sk/games/">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+             <li class="clients-item">
+              <a href="https://digitalleague.sk/o_nas">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+          <!--
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical University of Košice</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                Engineer's degree in Computer Science.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Butterfly Effect </h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Game Development program 
+              </p>
+
+            </li>
+
+            
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mobile Game Developer</h4>
+              <h4 class="h5 timeline-text">Inlogic Software</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Programming mobile games like Match 3 or simple hyper-casual 2D games in Unity. Mostly working with a team consisting of one designer and one graphic. During the period I created 5 hyper-casual games.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Game Development Lecturer</h4>
+              <h4 class="h5 timeline-text">Hemisfera</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Working with kids from 8-15 years. Helping them uderstand principles of Game Design, Art and Programming with Unity.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lead Game Programmer and Technical Game Designer</h4>
+              <h4 class="h5 timeline-text">Flying Butter Games s.r.o. (Self-employed)</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                I have been working for more than 2 years for my own game company developing a game Bushfires: Animal Rescue. I programmed the whole game and I was also responsible to design and implement game mechanics. I learned most of my Unity skills and working in the team during the development of the game.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Associate Software Engineer</h4>
+              <h4 class="h5 timeline-text">GlobalLogic</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Test Automation of the product for medical company.
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Languages</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="70">B2</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spanish</h5>
+                <data value="80">C1</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          
+          </ul>
+
+        <br></br>
+        </section>
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Unity</h5>
+                <data value="80"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="75"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UX/Design</h5>
+                <data value="60"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photoshop</h5>
+                <data value="65"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+       <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+      <!--
+        - #Legal
+      -->
+
+      <article class="legal " data-page="legal">
+
+        <header>
+          <h2 class="h2 article-title">Legal</h2>
+        </header>
+
+        <section class="about-text">
+            <h2 class="h3">Privacy Policy</h2> 
+            <p>
+Alexandra Šebestová built the RND - Random Number Generator app as a Free app. This SERVICE is provided by Alexandra Šebestová at no cost and is intended for use as is.
+
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at RND - Random Number Generator unless otherwise defined in this Privacy Policy.
+
+  <h2 class="h4">Information Collection and Use</h2> 
+<p>
+For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+
+The app does use third-party services that may collect information used to identify you.
+
+Link to the privacy policy of third-party service providers used by the app
+
+Google Play Services
+Log Data
+
+I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+</p>
+<h2 class="h4">Cookies</h2> 
+<p>
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+
+This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+</p>
+<p>
+<h2 class="h4">Service Providers</h2> 
+
+I may employ third-party companies and individuals due to the following reasons:
+
+To facilitate our Service;
+To provide the Service on our behalf;
+To perform Service-related services; or
+To assist us in analyzing how our Service is used.
+I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+</p>
+<p>
+<h2 class="h4">Security</h2> 
+
+I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+</p>
+<p>
+<h2 class="h4">Links to Other Sites</h2> 
+
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+</p>
+<p>
+<h2 class="h4">Children’s Privacy</h2> 
+
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
+</p>
+Changes to This Privacy Policy
+<h2 class="h4">Changes to This Privacy Policy</h2> 
+
+I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+
+This policy is effective as of 2023-04-17
+<p>
+<h2 class="h4">Contact Us</h2> 
+
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+</p>
+          </p>
+
+  
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
